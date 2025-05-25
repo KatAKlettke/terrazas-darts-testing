@@ -1,7 +1,7 @@
 /**
  * Takes the user-entered estimate and game type (301 or 501) in minutes and calculates the corresponding time for the other type.
  * @param estimate number, time estimate in minutes
- * @param gameType string, game type (either 301 or 501)
+ * @param gameType string, game type the estimate is made for (either 301 or 501)
  * @return estimated number of minutes (always rounded up) for the other mode
  */
 export default function convertLengthEstimate(estimate, gameType) {
